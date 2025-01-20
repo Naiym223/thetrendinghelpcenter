@@ -3,7 +3,7 @@
 <head>
     <meta property="og:title" content="myTrendy Help Center">
     <meta property="og:description" content="Get support and answers for your myTrendy app experience.">
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1051937226180804629/1330984904766394488/Screenshot_2025-01-20_at_2.38.45_PM.png?ex=678ff7c9&is=678ea649&hm=20f2688816cb0611d73b932e9af60112c515cca917571668ab998cc314e5ff4a&">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/814132587961647124/1330968046000668732/love.png">
     <meta property="og:url" content="https://help.mytrendy.app">
     <meta name="twitter:card" content="summary_large_image">
     <meta charset="UTF-8">
@@ -49,6 +49,7 @@
         .container {
             max-width: 900px;
             margin: 50px auto;
+            padding: 0 20px;
         }
 
         .container h2 {
@@ -67,6 +68,7 @@
             display: flex;
             gap: 20px;
             justify-content: center;
+            flex-wrap: wrap;
         }
 
         .card {
@@ -74,7 +76,8 @@
             border: 1px solid #ddd;
             border-radius: 10px;
             padding: 30px;
-            width: 30%;
+            width: 100%;
+            max-width: 400px;
             transition: all 0.3s ease;
             text-align: left;
         }
@@ -118,6 +121,12 @@
             margin: 0 10px;
             text-decoration: none;
         }
+
+        @media (min-width: 768px) {
+            .card {
+                width: 30%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -126,7 +135,7 @@
         <h1>Help Center</h1>
     </div>
 
-        <img class="center-icon" src="https://cdn.discordapp.com/attachments/814132587961647124/1330968046000668732/love.png?ex=678fe816&is=678e9696&hm=383f0a302d79a71672db0dfed1e2f6e51cee22e7b3781f1277a6d2eda35162ba&" alt="Center Icon">
+    <img class="center-icon" src="https://cdn.discordapp.com/attachments/814132587961647124/1330968046000668732/love.png" alt="Center Icon">
 
     <div class="container">
         <h2>Having issues or questions?</h2>
@@ -146,7 +155,7 @@
             <div class="card">
                 <h3>myTrendy Help Articles</h3>
                 <p>Learn about our community guidelines, FAQs, and more.</p>
-                <a href="https://docs.mytrendy.app/" class="btn-articles">Visit Help Articles</a>
+                <a href="https://mytrendy.gitbook.io/" class="btn-articles">Visit Help Articles</a>
             </div>
         </div>
     </div>
@@ -159,18 +168,5 @@
         <a href="https://app.termly.io/notify/c2f526c5-0a66-47ba-aea1-68b67c225708">DSAR</a>
         <a href="https://docs.mytrendy.app/safety/dmca">DMCA</a>
     </div>
-<!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/678e9b573a8427326071cf08/1ii2gtk0m';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
 </body>
 </html>
