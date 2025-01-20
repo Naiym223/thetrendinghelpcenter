@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myTrendy Help Center</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #333;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px 50px;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .header img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .center-icon {
+            display: block;
+            margin: 30px auto 20px;
+            width: 80px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .container h2 {
+            font-size: 22px;
+            font-weight: normal;
+            color: #999;
+        }
+
+        .container p {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            width: 30%;
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .card a {
+            display: block;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .btn-discord { background: #5865F2; color: #fff; border: none; }
+        .btn-support { background: #FF4D6D; color: #fff; border: none; cursor: pointer; }
+        .btn-articles { background: #000; color: #fff; border: none; }
+
+        .card a:hover { opacity: 0.8; }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        .footer a {
+            color: #666;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-icon {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #FF4D6D;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://cdn-icons-png.flaticon.com/512/633/633600.png" alt="myTrendy Logo">
+        <h1>Help Center</h1>
+    </div>
+
+    <img class="center-icon" src="https://cdn.discordapp.com/attachments/814132587961647124/1330968046000668732/love.png?ex=678fe816&is=678e9696&hm=383f0a302d79a71672db0dfed1e2f6e51cee22e7b3781f1277a6d2eda35162ba&" alt="Center Icon">
+
+    <div class="container">
+        <h2>Having issues or questions?</h2>
+        <p>Reach out on our official support platform.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>myTrendy Community</h3>
+                <p>Create a discussion and get help from like-minded users.</p>
+                <a href="https://discord.com" class="btn-discord">Go to our Discord</a>
+            </div>
+            <div class="card">
+                <h3>myTrendy Support</h3>
+                <p>Log in and submit a case directly from our support team.</p>
+                <a href="#" class="btn-support" onclick="Tawk_API.toggle()">Talk to Support</a>
+            </div>
+            <div class="card">
+                <h3>myTrendy Help Articles</h3>
+                <p>Learn about our community guidelines, FAQs, and more.</p>
+                <a href="https://mytrendy.gitbook.io/" class="btn-articles">Visit Help Articles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">FAQ</a>
+        <a href="#">Community Guidelines</a>
+        <a href="#">DSAR</a>
+        <a href="#">DMCA</a>
+        <a href="#">Jobs</a>
+        <div class="footer-icon">&#128172;</div>
+    </div>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/678e9b573a8427326071cf08/1ii2gtk0m';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>
